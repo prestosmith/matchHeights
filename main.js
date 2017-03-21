@@ -3,7 +3,6 @@ function matchHeights(el, cssEl, resized){
 		if(resized){ cssEl.css("height", "auto");	}
 
   	var	totalHeight = 0;
-  	//set banners equal height
 		el.each(function(){
 			var el = $(this).outerHeight(true);
 			if(el >= totalHeight ){
